@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+.app{
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+:root{
+    --greed-color: #80B500;
+    --text-color: #333;
+    --title-color:#3f2803;
+    --bg-color: #e6e9eb;
+    --white-color: #fff;
+}
+
+/* animation */
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeInSlo {
+    from{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeInLeft {
+    from{
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.logo__main-link{
+    text-decoration: none;
+}
+.logo__main{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* 
+
+- phần login
+- click tìm kiếm
+- slide / btn trong slide
+
+*/
